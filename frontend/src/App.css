@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 500px;
+  margin: auto;
+}
+
+.App-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-title h1 {
+  margin: 0;
+  margin-right: 20px;
+  font-size: 3em;
+}
+
+.App-messages {
+  width: 100%;
+  height: 300px;
+  background: #eeeeee52;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  overflow: auto;
+  display: block;
+}
+
+.App-message-sent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.App-message-sent > .ant-tag {
+  margin-left: 8px !important;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 80vh;
+  padding: 10px;
+  width: 400px;
+}
+
+.App-title {
+  margin-bottom: 20px;
+}
+
+.ant-input {
+  margin-top: 20px;
+}
+
+.ant-btn {
+  margin: 10px;
+}
+
